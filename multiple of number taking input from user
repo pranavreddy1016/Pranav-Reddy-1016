@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int n, i;
+    printf("Enter the Number: ");
+    scanf("%d", &n);
+    for (i = 1; i <= n; i++)
+    {
+        printf("%d\n", i * 5);
+    }
+    // use for creating table or multible of 2 and you can also use another number multiple for ex.3,4,5,etc.
+    return 0;
+}
